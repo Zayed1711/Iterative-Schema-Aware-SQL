@@ -5,7 +5,7 @@ This repository contains the code, evaluation data, and execution logs for the p
 ## Overview
 This project demonstrates how a 1.5B parameter Small Language Model (SLM) can achieve high Text-to-SQL execution accuracy (65.80%) on the Spider benchmark without relying on massive cloud APIs. It utilizes a deterministic SQLite compiler feedback loop, strictly capped at $k=3$ iterations to prevent infinite hallucination loops and maintain a low inference latency (~14 seconds).
 
-## AI Declaration
+## Declaration of AI Usage
 During the preparation of this work the author(s) used Gemini AI, Claude and Perplexity in order to debug and improve the quality of the framework. After using the tool(s)/service(s), the author(s) reviewed and edited the code as needed and take(s) full responsibility for the content.
 
 ## Repository Contents
